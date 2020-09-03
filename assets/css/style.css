@@ -1,0 +1,118 @@
+body {
+    font-family: 'MetropolisRegular';
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+.img1 {
+    width: 135px;
+    height: 50px;
+    margin-top: 30px;
+}
+.txt1 {
+    margin-top: 30px;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: bolder;
+    color: #222222;
+}
+.btn {
+    margin-top: 20px;
+    width: 123px;
+    height: 48px;
+    border-width: 0;
+    border-radius: 5px;
+    border: 1px solid #9B9B9B;
+    font-size: 16px;
+    padding: 0;
+}
+.btn1 {
+    background-color: #DB3022;
+    color: #fff;
+}
+.btn2 {
+    background-color: #fff;
+    color: #aaa;
+}
+.input {
+    border: 1px solid #9B9B9B;
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 450px;
+    height: 30px;
+    padding: 10px;
+}
+.txt2 {
+    width: 650px;
+    margin-left: auto;
+    margin-top: 20px;
+}
+.btn3 {
+    margin-top: 20px;
+    width: 460px;
+    height: 48px;
+    border-radius: 25px;
+    background-color: #DB3022;
+    border-width: 0;
+    color: #fff;
+}
+.txt3 {
+    margin-top: 20px;
+}
+.txt3 a {
+    color: #ff0000;
+    font-style: normal;
+}
+.navbar{
+    background-color: #fff;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.container2 {
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    align-items: center;
+}
+#search {
+    border: 1px solid #9B9B9B;
+    border-radius: 35px;
+    margin-left: 70px;
+    width: 450px;
+    height: 40px;
+    padding-left: 20px;
+}
+#filter {
+    border: 1px solid #9B9B9B;
+    border-radius: 10px;
+    background-color: #fff;
+    margin-left: 5px;
+    width: 40px;
+    height: 40px;
+}
+#cart {
+    margin-left: 200px;
+}
+.btnmini {
+    border: 1px solid #9B9B9B;
+    border-radius: 25px;
+    width: 100px;
+    height: 36px;
+    padding:10px;
+}
+.btn4 {
+    background: #DB3022;
+    border-width: 0;
+    color: #fff;
+    margin-left: 30px;
+}
+.btn5 {
+    background: #fff;
+    color: #9B9B9B;
+    margin-left: 20px;
+}
