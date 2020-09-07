@@ -1019,9 +1019,33 @@ body {
     margin-top: 40px;
 }
 
-.first .two .f .size {
+.first .two .f .size, .first .two .f .jumlah {
+    display: flex;
+    flex-direction: column;
     font-size: 16px;
     font-weight: 600;
+}
+
+.first .two .f .size .button, .first .two .f .jumlah .button {
+    display: flex;
+    align-items: center;
+    margin-top: 14px;
+}
+
+.first .two .f .size .button button, .first .two .f .jumlah .button button {
+    background-color: #fff;
+    border-radius: 50% 50%;
+    width: 36px;
+    height: 36px;
+    box-shadow: 0px 0px 4px rgba(142, 142, 142, 0.25);
+    border-width: 0;
+    margin-left: 10px;
+}
+
+.first .two .f .size .button .min button, .first .two .f .jumlah .button .min button {
+    background-color: #D4D4D4;
+    margin-right: 10px;
+    margin-left: 0;
 }
 
 .first .two .f .jumlah {
@@ -1032,7 +1056,7 @@ body {
 
 .first .two .g {
     display: flex;
-    margin-top: 97px;
+    margin-top: 47px;
     align-items: center;
 }
 
